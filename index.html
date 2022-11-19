@@ -583,8 +583,26 @@
                      </ul>
                   </div>
                </div>
-            </div>
+            
+         
+         <div class="subscribe">
+            <h2 class="subscribe-title" >Підпишіться на розсилку</h2>
+            <form name="subscribe-form" autocomplete="on" class="subscribe-form">
+               <input type="email" name="email" class="subscribe-field"
+               placeholder="E-mail">
+               <button type="submit" class="subscribe-button">Підписатися
+                  
+                     <svg class="icon-send">
+                        <use
+                           href="./images/symbol-defs.svg#icon-send"
+                        ></use>
+                     </svg>
+                  
+               </button>
+            </form>
          </div>
+      </div>
+   </div>
       </footer>
       <div class="modal-backdrop is-hidden" data-modal>
          <div class="modal">
@@ -597,6 +615,21 @@
                   ></use>
                </svg>
             
+               <h2 class="feedback-title">Залиште свої дані, ми вам передзвонимо</h2>
+               <form name="feedback-form" autocomplete="on" class="feedback-form"></form>
+               <label>Ім'я
+                  <input type="text" name="username" class="username">
+               </label>
+               <label>Телефон
+                  <input type="phone" name="userphone" class="userphone">
+               </label>
+               <label>Пошта
+                  <input type="email" name="useremail" class="useremail">
+               </label>
+               <label>
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+               </label>
+            </form>
          </div>
       </div>
       <script src="./js/modal.js"></script>
