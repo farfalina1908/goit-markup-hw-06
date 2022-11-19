@@ -162,39 +162,38 @@
             <div class="conteiner">
                <h2 class="cases-title">Чим ми займаємося</h2>
                <ul class="our-cases list">
-   
                   <li class="item">
                      <div class="desktop-label">
-                     <img
-                        class="pic"
-                        src="./images/box1.jpg"
-                        alt="руки на клавіатурі"
-                        width="370"
-                     />
+                        <img
+                           class="pic"
+                           src="./images/box1.jpg"
+                           alt="руки на клавіатурі"
+                           width="370"
+                        />
                         <p class="label-text">Декстопні додатки</p>
-                  </div>
+                     </div>
                   </li>
 
                   <li class="item">
                      <div class="smartphon-label">
-                     <img
-                        class="pic"
-                        src="./images/box2.jpg"
-                        alt="руки зі смартфоном"
-                        width="370"
-                     />
-                      <p class="label-text">Мобільні додатки</p>
+                        <img
+                           class="pic"
+                           src="./images/box2.jpg"
+                           alt="руки зі смартфоном"
+                           width="370"
+                        />
+                        <p class="label-text">Мобільні додатки</p>
                      </div>
                   </li>
 
                   <li class="item">
                      <div class="design-label">
-                     <img
-                        class="pic"
-                        src="./images/box3.jpg"
-                        alt="руки з планшетом"
-                        width="370"
-                     />
+                        <img
+                           class="pic"
+                           src="./images/box3.jpg"
+                           alt="руки з планшетом"
+                           width="370"
+                        />
                         <p class="label-text">Дизайнерські рішення</p>
                      </div>
                   </li>
@@ -583,52 +582,114 @@
                      </ul>
                   </div>
                </div>
-            
-         
-         <div class="subscribe">
-            <h2 class="subscribe-title" >Підпишіться на розсилку</h2>
-            <form name="subscribe-form" autocomplete="on" class="subscribe-form">
-               <input type="email" name="email" class="subscribe-field"
-               placeholder="E-mail">
-               <button type="submit" class="subscribe-button">Підписатися
-                  
-                     <svg class="icon-send">
-                        <use
-                           href="./images/symbol-defs.svg#icon-send"
-                        ></use>
-                     </svg>
-                  
-               </button>
-            </form>
+               <div class="subscribe">
+                  <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+                  <form
+                     name="subscribe-form"
+                     autocomplete="on"
+                     class="subscribe-form"
+                  >
+                     <input
+                        type="email"
+                        name="email"
+                        class="subscribe-field"
+                        placeholder="E-mail"
+                     />
+                     <button type="submit" class="subscribe-button">
+                        Підписатися
+
+                        <svg class="icon-send">
+                           <use href="./images/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                     </button>
+                  </form>
+               </div>
+            </div>
          </div>
-      </div>
-   </div>
       </footer>
       <div class="modal-backdrop is-hidden" data-modal>
          <div class="modal">
-         
-               <svg class="close-sign" data-modal-close>
-                  <use
-                     href="./images/symbol-defs.svg#icon-close"
-                     width="30"
-                     height="30"
-                  ></use>
-               </svg>
-            
-               <h2 class="feedback-title">Залиште свої дані, ми вам передзвонимо</h2>
-               <form name="feedback-form" autocomplete="on" class="feedback-form"></form>
-               <label>Ім'я
-                  <input type="text" name="username" class="username">
+            <svg class="close-sign" data-modal-close>
+               <use
+                  href="./images/symbol-defs.svg#icon-close"
+                  width="30"
+                  height="30"
+               ></use>
+            </svg>
+            <h2 class="feedback-title">
+               Залиште свої дані, ми вам передзвонимо
+            </h2>
+            <form
+               name="feedback-form"
+               autocomplete="on"
+               novalidate
+               class="feedback-form"
+            >
+               <label name="username" class="label-title"
+                  >Ім'я
+                  <span class="input-wrapper">
+                     <input
+                        type="text"
+                        name="input-username"
+                        class="feedback input-username"
+                     />
+                     <svg class="username-sign">
+                        <use
+                           href="./images/symbol-defs.svg#icon-person-black"
+                           width="18"
+                           height="18"
+                        ></use>
+                     </svg>
+                  </span>
                </label>
-               <label>Телефон
-                  <input type="phone" name="userphone" class="userphone">
+               <label name="phone" class="label-title"
+                  >Телефон
+                  <span class="input-wrapper">
+                     <input
+                        type="tel"
+                        name="input-phone"
+                        class="feedback input-phone"
+                     />
+                     <svg class="username-sign">
+                        <use
+                           href="./images/symbol-defs.svg#icon-phone-black"
+                           width="18"
+                           height="18"
+                        ></use>
+                     </svg>
+                  </span>
                </label>
-               <label>Пошта
-                  <input type="email" name="useremail" class="useremail">
+               <label name="email" class="label-title"
+                  >Пошта
+                  <span class="input-wrapper">
+                     <input
+                        type="email"
+                        name="input-email"
+                        class="feedback input-email"
+                     />
+                     <svg class="username-sign">
+                        <use
+                           href="./images/symbol-defs.svg#icon-email-black"
+                           width="18"
+                           height="18"
+                        ></use>
+                     </svg>
+                  </span>
                </label>
-               <label>
-                  <textarea name="" id="" cols="30" rows="10"></textarea>
+               <label name="comments" class="label-title comments"
+                  >Коментар
+                  <textarea
+                     name="feedback-comments"
+                     class="feedback-comments"
+                     placeholder="Введіть текст"
+                  ></textarea>
                </label>
+               <label name="agreement-text" class="agreement-text">
+                  <input type="checkbox" name="agreement" class="agreement" />
+                  Погоджуюся з розсилкою та приймаю
+                  <a href="#">Умови договору</a>
+               </label>
+               <button type="submit" class="send-button">Відправити</button>
             </form>
          </div>
       </div>
