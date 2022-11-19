@@ -684,11 +684,20 @@
                      placeholder="Введіть текст"
                   ></textarea>
                </label>
-               <label name="agreement-text" class="agreement-text">
-                  <input type="checkbox" name="agreement" class="agreement" />
-                  Погоджуюся з розсилкою та приймаю
-                  <a href="#">Умови договору</a>
-               </label>
+               <div class="check-line">
+                  <label name="agreement-text check" class="agreement-text">
+                     <input
+                        type="checkbox"
+                        name="checkbox-agree"
+                        class="checkbox-agree visualy-hidden"
+                     />
+                     <span class="custom-checkbox"> </span>
+
+                     Погоджуюся з розсилкою та приймаю
+
+                     <a href="#" class="condittion-link"> Умови договору</a>
+                  </label>
+               </div>
                <button type="submit" class="send-button">Відправити</button>
             </form>
          </div>
