@@ -356,6 +356,7 @@ html {
 .custom-checkbox {
    position: absolute;
    display: flex;
+
    width: 16px;
    height: 15px;
    border: 2px solid var(--title-text-color);
@@ -364,11 +365,13 @@ html {
 }
 .checkbox-agree:checked + .custom-checkbox {
    background-color: var(--accent-color);
-   background-image: url(/images/check.svg);
+   /* background-image: url(/images/check.svg); */
    border-color: var(--accent-color);
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat; */
 }
-
+.custom-checkbox-sign {
+   padding: 1px;
+}
 .send-button {
    display: block;
    width: 200px;
