@@ -318,6 +318,7 @@ html {
 }
 .feedback:hover,
 .feedback:focus {
+   outline-style: none;
    border-color: var(--accent-color);
 }
 .label-title .comments {
@@ -336,6 +337,7 @@ html {
 }
 .feedback-comments:hover,
 .feedback-comments:focus {
+   outline-style: none;
    border-color: var(--accent-color);
 }
 .agreement-text {
